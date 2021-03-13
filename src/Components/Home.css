@@ -1,0 +1,81 @@
+.header-video{
+   
+}
+.header-video video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;  
+    z-index:-1;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+}
+.header-text{
+    padding-top:15%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 1px 5px rgb(105, 224, 255);
+    color: white;
+}
+.vid-start{
+    width: 100px;
+    cursor: pointer;
+}
+.modal iframe{
+    position: absolute;
+     top: 50%;
+     left: 50%;
+     outline: none;
+     transform: translate(-50%,-50%)
+}
+.modal img{
+    width: 60px;
+    position:absolute;
+    top: 2%;
+    right: 5%;
+}
+.map{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    outline: none;
+    border: none;
+}
+.map iframe{
+    width: 100%;
+    height: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+.game-info{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    text-align:left;
+    width: 100vw;
+    padding-top: 10%;
+    height: 100vh;
+    color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(../images/background.png);
+}
+.game-info h1{
+    color:#CDCB48;
+    padding-bottom: 4%;
+}
+.game-info .aboutthegame{
+    flex-basis: 40%;
+    margin-right: 50px;
+}
+.game-info .sys{
+    flex-basis: 40%;
+}
